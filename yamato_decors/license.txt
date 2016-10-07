@@ -8,7 +8,7 @@ Rui - (MIT) - "andon.lua"
 License of textures
 -------------------
 
-Rui - (CC BY 4.0) - ("yamato_andon_*.png")
+Rui - (CC BY 4.0) - "yamato_andon_*.png"
 
 --------------------------------------------------
 
