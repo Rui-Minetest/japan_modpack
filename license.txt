@@ -56,3 +56,5 @@ No warranties are given. The license may not give you all of the permissions nec
 
 For more details:
 http://creativecommons.org/licenses/by/4.0/
+
+--------------------------------------------------
