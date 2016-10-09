@@ -17,9 +17,6 @@ local tiles  = {
 	"yamato_wadansu.png", "yamato_wadansu.png^yamato_wadansu_front.png"
 }
 
-local groups = {choppy = 2, oddly_breakable_by_hand = 2}
-local sounds = default.node_sound_wood_defaults()
-
 local function can_dig(pos)
 	local meta      = minetest.get_meta(pos)
 	local inventory = meta:get_inventory()
@@ -54,8 +51,8 @@ minetest.register_node("yamato_decors:wadansu", {
 	paramtype2   = "facedir",
 
 	tiles        = tiles,
-	sounds       = sounds,
-	groups       = groups,
+	groups       = {choppy = 2, oddly_breakable_by_hand = 2},
+	sounds       = default.node_sound_wood_defaults(),
 
 	can_dig      = can_dig,
 	on_construct = on_construct
