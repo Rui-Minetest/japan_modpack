@@ -10,6 +10,8 @@ License of textures:
 
 	Rui - (CC BY 4.0):
 		"yamato_andon_*.png"
+		"yamato_wadansu.png"
+		"yamato_wadansu_front.png"
 
 --------------------------------------------------
 
