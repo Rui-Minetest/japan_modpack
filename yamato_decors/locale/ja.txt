@@ -1,1 +1,2 @@
 Andon = 行灯
+Wadansu = 和箪笥
