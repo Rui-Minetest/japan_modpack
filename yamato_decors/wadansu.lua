@@ -11,7 +11,7 @@ end)()
 
 --------------------------------------------------
 
-local tiles  = {
+local tiles = {
 	"yamato_wadansu.png", "yamato_wadansu.png",
 	"yamato_wadansu.png", "yamato_wadansu.png",
 	"yamato_wadansu.png", "yamato_wadansu.png^yamato_wadansu_front.png"
