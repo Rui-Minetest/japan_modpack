@@ -64,7 +64,7 @@ minetest.register_craft({
 	}
 })
 
--- [[
+--[[
 local nodenames = (function()
 	local nodenames = {}
 
