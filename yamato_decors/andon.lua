@@ -34,7 +34,7 @@ for i = 1, number_of_textures do
 		.. "^yamato_andon_side_frame.png"
 
 	local texture_of_back_and_front = "yamato_andon_side_paper.png"
-		.. "^yamato_andon_side" .. i .. ".png"
+		.. "^yamato_andon_side_" .. i .. ".png"
 		.. "^yamato_andon_side_frame.png"
 
 	local tiles = {
