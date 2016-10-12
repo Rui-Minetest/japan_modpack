@@ -30,14 +30,17 @@ local selection_box = {
 --------------------------------------------------
 
 for i = 1, number_of_textures do
-	local texture = "yamato_andon_side_paper.png"
+	local texture_of_left_and_right = "yamato_andon_side_paper.png"
+		.. "^yamato_andon_side_frame"
+
+	local texture_of_back_and_front = "yamato_andon_side_paper.png"
 		.. "^yamato_andon_side" .. i
 		.. "^yamato_andon_side_frame"
 
 	local tiles = {
-		"yamato_andon_top.png",  "yamato_andon_bottom.png",
-		"yamato_andon_side.png", "yamato_andon_side.png",
-		texture,                 texture
+		"yamato_andon_top.png",    "yamato_andon_bottom.png",
+		texture_of_left_and_right, texture_of_left_and_right,
+		texture_of_back_and_front, texture_of_back_and_front
 	}
 
 	minetest.register_node("yamato_decors:andon_" .. i, {
