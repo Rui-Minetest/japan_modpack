@@ -77,4 +77,4 @@ local nodenames = (function()
 end)()
 
 yamato.register_cyclic_craft(nodenames)
--- ]]
+]]
