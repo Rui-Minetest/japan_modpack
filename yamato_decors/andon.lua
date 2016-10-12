@@ -31,11 +31,11 @@ local selection_box = {
 
 for i = 1, number_of_textures do
 	local texture_of_left_and_right = "yamato_andon_side_paper.png"
-		.. "^yamato_andon_side_frame"
+		.. "^yamato_andon_side_frame.png"
 
 	local texture_of_back_and_front = "yamato_andon_side_paper.png"
-		.. "^yamato_andon_side" .. i
-		.. "^yamato_andon_side_frame"
+		.. "^yamato_andon_side" .. i .. ".png"
+		.. "^yamato_andon_side_frame.png"
 
 	local tiles = {
 		"yamato_andon_top.png",    "yamato_andon_bottom.png",
