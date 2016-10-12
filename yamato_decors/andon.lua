@@ -67,17 +67,4 @@ minetest.register_craft({
 	}
 })
 
---[[
-local nodenames = (function()
-	local nodenames = {}
-
-	for i = 1, number_of_textures do
-		local nodename = "yamato_decors:andon_" .. i
-		table.insert(nodenames, nodename)
-	end
-
-	return nodenames
-end)()
-
-yamato.register_cyclic_craft(nodenames)
-]]
+-- yamato.register_cyclic_craft("yamato_decors:andon_", number_of_textures)
