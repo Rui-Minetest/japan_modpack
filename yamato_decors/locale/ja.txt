@@ -1,2 +1,15 @@
+# andon.lua
 Andon = 行灯
+
+# tatami.lua
+Tatami = 畳
+Half Tatami = 半畳
+Borderless Tatami = 縁なし畳
+Half Borderless Tatami = 縁なし半畳
+Sunburned Tatami = 日焼け畳
+Half Sunburned Tatami = 日焼け半畳
+Sunburned Borderless Tatami = 縁なし日焼け畳
+Half Sunburned Borderless Tatami = 縁なし日焼け半畳
+
+# wadansu.lua
 Wadansu = 和箪笥

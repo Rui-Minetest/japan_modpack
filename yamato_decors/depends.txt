@@ -1,2 +1,4 @@
 yamato
 default
+farming
+stairs
