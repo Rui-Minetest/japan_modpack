@@ -1,13 +1,5 @@
--- intllib function
-local S = (function()
-	if minetest.get_modpath("intllib") then
-		return intllib.Getter()
-	end
-
-	return (function(str)
-		return str
-	end)
-end)()
+-- intllib getter function
+local S = yamato.get_intllib_getter()
 
 --------------------------------------------------
 
