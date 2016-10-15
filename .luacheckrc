@@ -39,5 +39,5 @@ read_globals = {
 	"xpanes",
 
 	-- Others
-	"fintllib",
+	"intllib",
 }
