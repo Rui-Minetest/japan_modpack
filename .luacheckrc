@@ -10,11 +10,34 @@ ignore = {
 }
 
 read_globals = {
+	-- Minetest
 	"minetest",
 	"vector",
 	"Settings",
 	"ItemStack",
 	"PseudoRandom",
 	"VoxelManip",
-	"VoxelArea"
+	"VoxelArea",
+
+	-- Minetest Game
+	"beds",
+	"bucket",
+	"creative",
+	"default",
+	"doors",
+	"dye",
+	"farming",
+	"fire",
+	"flowers",
+	"give_initial_stuff",
+	"nyancat",
+	"screwdriver",
+	"sethome",
+	"stairs",
+	"tnt",
+	"walls",
+	"xpanes",
+
+	-- Others
+	"fintllib",
 }
