@@ -12,7 +12,7 @@ Sunburned Borderless Tatami = 縁なし日焼け畳
 Half Sunburned Borderless Tatami = 縁なし日焼け半畳
 
 # tobiishi.lua
-Tobiishi = 飛び石
+Tobiishi = 飛石
 
 # wadansu.lua
 Wadansu = 和箪笥
