@@ -4,7 +4,7 @@ local S = yamato.get_intllib_getter()
 --------------------------------------------------
 
 local node_box = {
-	type = "fixed",
+	type  = "fixed",
 	fixed = {
 		{-6/16, -8/16, -7/16,  3/16, -7/16, -1/16},
 		{-3/16, -8/16,  1/16,  6/16, -7/16,  7/16}
@@ -12,7 +12,7 @@ local node_box = {
 }
 
 local selection_box = {
-	type = "fixed",
+	type  = "fixed",
 	fixed = {-8/16, -8/16, -8/16, 8/16, -7/16, 8/16}
 }
 
