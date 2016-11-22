@@ -22,7 +22,7 @@ end
 minetest.register_node("yamato_decors:tatami", {
 	description = S("Tatami"),
 	paramtype2  = "facedir",
-	
+
 	tiles       = {"yamato_tatami.png", "yamato_tatami.png", "yamato_tatami.png^[transformR90"},
 	groups      = sunburnable_group,
 	sounds      = sounds

@@ -1,6 +1,9 @@
 # andon.lua
 Andon = 行灯
 
+# chochin.lua
+Chochin = 提灯
+
 # tatami.lua
 Tatami = 畳
 Half Tatami = 半畳
