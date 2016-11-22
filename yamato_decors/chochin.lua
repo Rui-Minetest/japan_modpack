@@ -33,8 +33,8 @@ minetest.register_node("yamato_decors:chochin", {
 minetest.register_craft({
 	output = "yamato_decors:chochin",
 	recipe = {
-		{"",              "default:paper",   ""             },
+		{"",              "default:paper",   ""           },
 		{"default:paper", "default:torch", "default:paper"},
-		{"",              "default:paper",   ""             }
+		{"",              "default:paper",   ""           }
 	}
 })
