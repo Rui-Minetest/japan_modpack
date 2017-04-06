@@ -6,7 +6,8 @@ allow_defined_top = true
 
 ignore = {
 	"42",
-	"43"
+	"43",
+	"631"
 }
 
 read_globals = {
@@ -29,8 +30,7 @@ read_globals = {
 	"farming",
 	"fire",
 	"flowers",
-	"give_initial_stuff",
-	"nyancat",
+	"give_initial_stuff",	
 	"screwdriver",
 	"sethome",
 	"stairs",
