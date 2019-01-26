@@ -111,6 +111,7 @@ local function register(name, def)
 
 		minetest.register_node(name.."_1_1", { -- "left bottom"
 			drawtype = "nodebox",
+			paramtype = "light",
 			paramtype2 = "facedir",
 			groups = groups,
 			node_box = {
@@ -129,6 +130,7 @@ local function register(name, def)
 
 		minetest.register_node(name.."_1_2", { -- "left top"
 			drawtype = "nodebox",
+			paramtype = "light",
 			paramtype2 = "facedir",
 			pointable = false,
 			groups = groups,
@@ -141,6 +143,7 @@ local function register(name, def)
 
 		minetest.register_node(name.."_1_3", { -- "right bottom"
 			drawtype = "nodebox",
+			paramtype = "light",
 			paramtype2 = "facedir",
 			groups = groups,
 			node_box = {
@@ -159,6 +162,7 @@ local function register(name, def)
 
 		minetest.register_node(name.."_1_4", { -- "right top"
 			drawtype = "nodebox",
+			paramtype = "light",
 			paramtype2 = "facedir",
 			pointable = false,
 			groups = groups,
@@ -181,6 +185,7 @@ local function register(name, def)
 		do -- left only
 			minetest.register_node(name.."_2_1", { -- "left bottom"
 				drawtype = "nodebox",
+				paramtype = "light",
 				paramtype2 = "facedir",
 				groups = groups,
 				node_box = {
@@ -199,6 +204,7 @@ local function register(name, def)
 
 			minetest.register_node(name.."_2_2", { -- "left top"
 				drawtype = "nodebox",
+				paramtype = "light",
 				paramtype2 = "facedir",
 				pointable = false,
 				groups = groups,
@@ -245,6 +251,7 @@ local function register(name, def)
 
 			minetest.register_node(name.."_3_3", {
 				drawtype = "nodebox",
+				paramtype = "light",
 				paramtype2 = "facedir",
 				groups = groups,
 				node_box = {
@@ -263,6 +270,7 @@ local function register(name, def)
 
 			minetest.register_node(name.."_3_4", {
 				drawtype = "nodebox",
+				paramtype = "light",
 				paramtype2 = "facedir",
 				pointable = false,
 				groups = groups,

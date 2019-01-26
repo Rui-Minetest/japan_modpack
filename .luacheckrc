@@ -4,21 +4,19 @@ color = false
 unused_args = false
 allow_defined_top = true
 
-ignore = {
-	"42",
-	"43",
-	"631"
-}
-
 read_globals = {
+	"yamato",
+
 	-- Minetest
 	"minetest",
 	"vector",
 	"Settings",
 	"ItemStack",
 	"PseudoRandom",
+	"PcgRandom",
 	"VoxelManip",
 	"VoxelArea",
+	table = { fields = { "copy", "indexof" } },
 
 	-- Minetest Game
 	"beds",
@@ -30,7 +28,7 @@ read_globals = {
 	"farming",
 	"fire",
 	"flowers",
-	"give_initial_stuff",	
+	"give_initial_stuff",
 	"screwdriver",
 	"sethome",
 	"stairs",

@@ -6,13 +6,17 @@ Chochin = 提灯
 
 # tatami.lua
 Tatami = 畳
-Half Tatami = 半畳
 Borderless Tatami = 縁なし畳
+Tatami (Sunburned) = 畳 (日焼け)
+Borderless Tatami (Sunburned) = 縁なし畳 (日焼け)
+Tatami (Anti-Sunburn) = 畳 (日焼け耐性)
+Borderless Tatami (Anti-Sunburn) = 縁なし畳 (日焼け耐性)
+Half Tatami = 半畳
 Half Borderless Tatami = 縁なし半畳
-Sunburned Tatami = 日焼け畳
-Half Sunburned Tatami = 日焼け半畳
-Sunburned Borderless Tatami = 縁なし日焼け畳
-Half Sunburned Borderless Tatami = 縁なし日焼け半畳
+Half Tatami (Sunburned) = 半畳 (日焼け)
+Half Borderless Tatami (Sunburned) = 縁なし半畳 (日焼け)
+Half Tatami (Anti-Sunburn) = 半畳 (日焼け耐性)
+Half Borderless Tatami (Anti-Sunburn) = 縁なし半畳 (日焼け耐性)
 
 # tobiishi.lua
 Tobiishi = 飛石
